@@ -1,2 +1,3 @@
-# barebones-html5css3
- basic html5 css3 template
+# coviran-home
+ Clone of www.coviran.es (only design)
+ I do not own this webpage, this project was created for educational purposes only.
