@@ -12,24 +12,25 @@ body {
 }
 
 .container {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.content {
     width: 95%;
     margin: 0 auto;
 }
 
-.d-flex {
+.row {
     display: flex;
+}
+
+.justify-between {
     justify-content: space-between;
+}
+
+.align-center {
     align-items: center;
 }
 
 .green-box {
     background-color: #2a5a36;
-    padding: 5px;
+    padding: 10px;
 }
 
 .left, .right {
@@ -38,8 +39,11 @@ body {
     color: white;
 }
 
-.left * {
-    margin-right: 5px;
+.mr-10 {
+    margin-right: 10px;
+}
+.ml-10 {
+    margin-left: 10px;
 }
 
 .nav-container {
@@ -47,10 +51,15 @@ body {
     align-items: center;
     justify-content: start;
     margin: 5px auto;
+    padding: 10px;
 }
 
 header nav {
     margin-left:50px;
+}
+
+.p-15 {
+    padding: 15px;
 }
 
 header nav ul, header nav li {
@@ -61,6 +70,11 @@ header nav li {
     list-style-type: none;
     float: left;
     position: relative;
+    margin-right: 20px;
+    color: black;
+}
+header nav li li {
+    margin-right: 0;
 }
 header nav ul ul {
     display: none;
@@ -68,4 +82,51 @@ header nav ul ul {
 }
 header nav ul li:hover ul {
     display: block;
+}
+header nav ul li:hover {
+    color: #00913d;
+}
+
+.col-3 {
+    width: 32%;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 20px gainsboro;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+.bottom-list nav {
+    background-color: #00913d;
+}
+
+.bottom-list nav ul, header nav li {
+    padding: 0;
+    margin: 0;
+}
+.bottom-list nav li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+.bottom-list nav ul ul {
+    display: none;
+    position: absolute;
+}
+.bottom-list nav ul li:hover ul {
+    display: block;
+}
+.bottom-list nav ul li:hover {
+    color: #00913d;
 }
