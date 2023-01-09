@@ -2,131 +2,170 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 body {
     margin: 0;
 }
 
 .container {
-    width: 95%;
-    margin: 0 auto;
+    width: 94%;
+    margin: auto;
+}
+
+header {
+    background-color: #285b35;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .row {
     display: flex;
 }
 
-.justify-between {
+.justify-content-between {
     justify-content: space-between;
 }
 
-.align-center {
+.align-items-center {
     align-items: center;
 }
 
-.green-box {
-    background-color: #2a5a36;
-    padding: 10px;
-}
-
-.left, .right {
-    display: flex;
-    align-items: center;
-    color: white;
+.ml-10 {
+    margin-left: 10px;
 }
 
 .mr-10 {
     margin-right: 10px;
 }
-.ml-10 {
-    margin-left: 10px;
-}
-
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    margin: 5px auto;
-    padding: 10px;
-}
-
-header nav {
-    margin-left:50px;
-}
-
-.p-15 {
-    padding: 15px;
-}
-
-header nav ul, header nav li {
-    padding: 0;
-    margin: 0;
-}
-header nav li {
-    list-style-type: none;
-    float: left;
-    position: relative;
-    margin-right: 20px;
-    color: black;
-}
-header nav li li {
-    margin-right: 0;
-}
-header nav ul ul {
-    display: none;
-    position: absolute;
-}
-header nav ul li:hover ul {
-    display: block;
-}
-header nav ul li:hover {
-    color: #00913d;
-}
 
 .col-3 {
     width: 32%;
+    display: flex;
 }
 
 .card {
     border-radius: 10px;
     box-shadow: 0 0 20px gainsboro;
     text-align: center;
-    font-size: 25px;
-}
-
-.card p {
-    width: 80%;
-    margin: 0 auto;
+    font-size: 26px;
 }
 
 .card img {
     width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
-.bottom-list nav {
-    background-color: #00913d;
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.bottom-list nav ul, header nav li {
+nav ul, nav li {
     padding: 0;
     margin: 0;
 }
-.bottom-list nav li {
+
+nav li {
     list-style-type: none;
     float: left;
     position: relative;
+    padding: 14px;
 }
-.bottom-list nav ul ul {
-    display: none;
+
+nav li img {
+    margin-right: 10px;
+}
+
+nav li li {
+    padding: 10px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+#busta {
+    position: relative;
+    overflow: hidden;
+}
+img[src="img/fanta2.png"] {
     position: absolute;
+    transition: left .5s;
+    left: 2000px;
 }
-.bottom-list nav ul li:hover ul {
+#busta:hover img[src="img/fanta2.png"] {
+    left: 60px; 
+}
+
+.card:hover img {
+    opacity: .5;
+}
+
+nav ul ul {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    margin-left: -10px;
+    background-color: white;
+    width: 240px;
+    padding-top: 16px;
+}
+
+nav ul li:hover ul {
     display: block;
 }
-.bottom-list nav ul li:hover {
-    color: #00913d;
+
+nav a:hover {
+    color: green;
+}
+
+nav li li:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+.bg-verde {
+    background-color: #297b3c;
+}
+
+.px-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+.fontsize-lg {
+    font-size: large;
+}
+
+.border-bottom-white {
+    border-bottom: white solid 3px;
+}
+
+.w-20p100 {
+    width: 20%;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bg-verde-oscuro {
+    background-color: #285b35;
+}
+
+.txt-center {
+    text-align: center;
 }
