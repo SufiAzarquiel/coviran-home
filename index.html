@@ -4,92 +4,119 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Coviran</title>
         <link rel="stylesheet" href="css/style.css" />
-        <title>Supermercados Covirán</title>
     </head>
+
     <body>
         <header>
-            <div class="green-box row justify-between">
-                <div class="left row align-center">
+            <div class="container row justify-content-between">
+                <div class="row align-items-center">
                     <img src="img/espana.png" alt="" class="mr-10" />
                     <img src="img/portugal.png" alt="" class="mr-10" />
-                    atenciónalcliente@coviran.es
+                    atencionalcliente@coviran.es
                 </div>
-                <div class="right row align-center">
+                <div class="row align-items-center">
                     Acceso privado
                     <img src="img/facebook_20.png" alt="" class="ml-10" />
                     <img src="img/twitter_20.gif" alt="" class="ml-10" />
                 </div>
             </div>
-            <div class="content nav-container">
-                <img src="img/logo.png" alt="" />
-                <nav>
-                    <ul>
-                        <a href="#"><li>INICIO</li></a>
-                        <a href="#">
-                            <li>
-                                QUIÉNES SOMOS
-                                <ul>
-                                    <a href="#"><li>CIFRAS</li></a>
-                                    <a href="#"><li>DISTINCIONES</li></a>
-                                    <a href="#"><li>HISTORIA</li></a>
-                                    <a href="#"
-                                        ><li>MISIÓN, VISIÓN Y VALORES</li></a
-                                    >
-                                    <a href="#"><li>OBJETO Y ALCANCE</li></a>
-                                </ul>
-                            </li>
-                        </a>
-                        <a href="#"><li>QUIERE SER SOCIO</li></a>
-                        <a href="#"><li>TRABAJA CON NOSOTROS</li></a>
-                        <a href="#"><li>SALA DE PRENSA</li></a>
-                        <a href="#"><li>CONTACTO</li></a>
-                    </ul>
-                </nav>
-            </div>
         </header>
-        <img src="img/coviran-bustamante.png" width="100%" alt="" />
-        <div class="row justify-between p-15 align-strech container">
-            <div class="col-3 row">
-                <div class="card">
-                    <img src="img/noticia1.jpeg" alt="" />
-                    <p>
-                        Los supermercados Covián siguen dando pasos en materia
-                        de responsabúdad y eficiencia
-                    </p>
-                </div>
-            </div>
-            <div class="col-3 row">
-                <div class="card">
-                    <img src="img/noticia2.jpeg" alt="" />
-                    <p>Covirán, 55 años trabajando por la economia local</p>
-                </div>
-            </div>
-            <div class="col-3 row">
-                <div class="card">
-                    <img src="img/noticia3.jpeg" alt="" />
-                    <p>Covirán muestra su apoyo a Ia Ilitha contra el cáncer</p>
-                </div>
-            </div>
-        </div>
-        <div class="bottom-list">
-            <nav>
-                <ul>
+
+        <div class="container row align-items-center">
+            <img src="img/logo.png" alt="" class="mr-10" />
+            <nav id="header-nav">
+                <ul class="row">
                     <a href="#">
-                        <li>Supermercado</li>
+                        <li>INICIO</li>
                     </a>
                     <a href="#">
-                        <li>Folletos</li>
+                        <li>
+                            QUIÉNES SOMOS
+                            <ul>
+                                <a href="#">
+                                    <li>CIFRAS</li>
+                                </a>
+                                <a href="#">
+                                    <li>DISTINCIONES</li>
+                                </a>
+                                <a href="#">
+                                    <li>HISTORIA</li>
+                                </a>
+                                <a href="#">
+                                    <li>MISIÓN, VISIÓN Y VALORES</li>
+                                </a>
+                                <a href="#">
+                                    <li>OBJETO Y ALCANCE</li>
+                                </a>
+                            </ul>
+                        </li>
                     </a>
                     <a href="#">
-                        <li>Otros servicios</li>
+                        <li>QUIERES SER SOCIO</li>
                     </a>
                     <a href="#">
-                        <li>Redes Sociales</li>
+                        <li>TRABAJA CON NOSOTROS</li>
+                    </a>
+                    <a href="#">
+                        <li>SALA DE PRENSA</li>
+                    </a>
+                    <a href="#">
+                        <li>CONTACTO</li>
                     </a>
                 </ul>
             </nav>
         </div>
-        <footer></footer>
+
+        <div id="busta">
+            <img src="img/coviran-bustamante.png" alt="" width="100%" />
+            <img src="img/fanta2.png" alt="" />
+        </div>
+
+        <div class="container row justify-content-between py-20">
+            <div class="col-3">
+                <div class="card">
+                    <img src="img/noticia1.jpeg" alt="" />
+                    <p>
+                        Los supermercados Covirán siguen dando pasos en materia
+                        de responsabilidad y eficiencia
+                    </p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="img/noticia2.jpeg" alt="" />
+                    <p>Covirán, anostra jan o por economía local</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="img/noticia3.jpeg" alt="" />
+                    <p>Covirán muestra su apoyo a la lucha contra el cáncer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-verde texto-blanco py-20">
+            <div class="container row justify-content-between">
+                <div class="texto-blanco fontsize-lg border-bottom-white pb-10 w-20p100">Supermercados</div>
+                <div class="texto-blanco fontsize-lg border-bottom-white pb-10 w-20p100">Folletos</div>
+                <div class="texto-blanco fontsize-lg border-bottom-white pb-10 w-20p100">Otros servicios</div>
+                <div class="texto-blanco fontsize-lg border-bottom-white pb-10 w-20p100">Redes sociales</div>
+            </div>
+        </div>
+
+        <div class="bg-verde-oscuro py-30">
+            <div class="container texto-blanco">
+                Colaboradores 50 Aniversario Coviran
+            </div>
+            <div class="txt-center">
+                <img src="img/patrocinadores1.png" alt="">
+            </div>
+            <div class="container texto-blanco">
+                COVIRAN S.C.A Atención al cliente: 901 116 995
+            </div>
+        </div>
     </body>
 </html>
